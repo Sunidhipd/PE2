@@ -18,8 +18,8 @@ public class Q1_PalindromeTest {
         int val = 7667;
         int an = t.palindrome(inp);
         int res = t.palindrome(val);
-        assertEquals(2, an);
-        assertEquals(1, res);
+        assertEquals(false, an);
+        assertEquals(true, res);
 
     }
 }
