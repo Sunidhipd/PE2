@@ -16,12 +16,15 @@ import static org.junit.Assert.*;
 
     @Test
     public void TestAverage() {
-        int inp = 7;
-        int val = 7666;
-        int an = t.Even(inp);
-        int res = t.Even(val);
-        assertEquals(false, an);
-        assertEquals(true, res);
+        double inp[] = t.getAverage(4,new double[](97,89,31,33));
+        double val = 62.5;
+        double highest=97;
+        double min=31;
+        double minR=t.getMin(inp);
+        double maxR=t.getMax(inp);
+        assertEquals(62.5, val);
+        assertEquals(min, minR);
+        assertEquals(highest, maxR);
 
     }
 }
