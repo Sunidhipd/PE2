@@ -1,16 +1,16 @@
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 
-public class Q3_Member_variable {
+public class Q3MemberVariableTest {
 
-    MemberVariable mv;
+    Q3MemberVariable mv;
 
     @Before
     public void setup() throws Exception{
-        mv=new MemberVariable();
+        mv=new Q3MemberVariable();
     }
 
 

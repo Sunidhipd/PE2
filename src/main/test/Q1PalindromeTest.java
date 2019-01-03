@@ -1,23 +1,22 @@
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
-public class Q1_PalindromeTest {
+public class Q1PalindromeTest {
 
-    Q1_palindrome t;
+    Q1Palindrome t;
 
     @Before
     public void setUp() throws Exception {
-        t = new Q1_palindrome();
+        t = new Q1Palindrome();
     }
 
     @Test
     public void TestPalindrome() {
         int inp = 7665;
         int val = 7667;
-        int an = t.palindrome(inp);
-        int res = t.palindrome(val);
+        boolean an = t.palindrome(inp);
+        boolean res = t.palindrome(val);
         assertEquals(false, an);
         assertEquals(true, res);
 
