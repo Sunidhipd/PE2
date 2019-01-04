@@ -24,25 +24,4 @@ public class MemberVariable {
     public int getAge(){
         return Age;
     }
-
-    public class Member{
-        MemberVariable member = new MemberVariable();
-
-        public String getMemberName(String name){
-            member.setName(name);
-            String res=member.getName();
-            return res;
-        }
-        public int getMemberAge(int age){
-            member.setAge(age);
-            int res=member.getAge();
-            return res;
-        }
-
-        public int getMemberSalary(int salary){
-            member.setSalary(salary);
-            int res=member.getSalary();
-            return res;
-        }
-    }
 }
