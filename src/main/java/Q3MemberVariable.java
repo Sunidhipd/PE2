@@ -7,23 +7,23 @@ public class Q3MemberVariable {
     int age;
 
     public void setName(String n){
-        this.name=n;
+        name=n;
     }
     public String getName(){
-        return this.name;
+        return name;
     }
 
     public void setSalary(int s){
-        this.salary=s;
+        salary=s;
     }
     public int getSalary(){
-        return this.salary;
+        return salary;
     }
     public void setAge(int a){
-        this.age= a;
+        age= a;
     }
     public int getAge(){
-        return this.age;
+        return age;
     }
 
     public static void main(String[] args){
